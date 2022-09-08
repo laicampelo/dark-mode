@@ -23,9 +23,9 @@
 * Clicar no botão;
 * Mudança de background.
 * <a href="https://laicampelo.github.io/dark-mode/">Teste o projeto</a>
-
-<img src="dia.png"> <img src="noite.png">
-
+<div align="center">
+<img width="300" src="dia.png"> <img width="300" src="noite.png">
+</div>
 ### Como executar o projeto
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
