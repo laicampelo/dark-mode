@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(84,166,226);
+    width: 100%;
+    height: 100vh;
+    background: ls;
+}
+
+#botao{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgb(238,239,245);
+    cursor:pointer;
+}
+
+.ball{
+    position: absolute;
+    top: 0;    
+    left: 0;
+    width: 64px;
+    height:64px;
+    border-radius: 50%;
+    transition: left 0.9s;
+
+}
+
+.ball-move{
+    left: calc(160px);
+    
+}
+
+.dark {
+    background-color:#000210;
+}
+
+.noite {
+    background-image: url('https://audienciadatvmix.files.wordpress.com/2014/05/gif-estrela.gif');
+}
+
+.dia{
+    background-image: url('https://i.gifer.com/Vo2e.gif');
+}
+
+.ball-noite {
+    top: -2px;
+    background-color: transparent;
+    box-shadow: -30px 0 0 0 rgb(241, 245, 16);
+    width: 64px;
+
+}
+
+.ball-dia{
+    top: -2px;
+    background-color: rgb(241, 245, 16);
+    box-shadow: 0px 0 5px 6px rgb(238,239,245);
+    width: 64px;
+
+}
+
